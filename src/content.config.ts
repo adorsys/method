@@ -15,7 +15,7 @@ export const collections = {
                                 canvasId: z.string().optional(),
                                 // Add a default value to the built-in `banner` field.
                                 banner: z.object({ content: z.string() }).default({
-                                  content: 'APIOps Helsinki 2026 conference is here! <a href="https://helsinki.apiops.info/">https://helsinki.apiops.info/</a>.',
+                                  content: 'Try the new beta with capability, integration and automation cycles and more! <a href="https://beta.apiopscycles.com/">https://beta.apiopscycles.com/</a>.',
                                 }),
                         }),
                 }),
